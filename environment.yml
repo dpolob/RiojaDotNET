@@ -1,0 +1,14 @@
+name: rioja-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - pip:
+    - azureml-defaults
+    - azureml-sdk
+    - keras
+    - tensorflow
